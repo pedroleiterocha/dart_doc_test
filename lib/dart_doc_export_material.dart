@@ -1,5 +1,3 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:flutter/material.dart' hide Container;
+export 'package:dart_doc_export_material/src/custom_component.dart';
+export 'package:dart_doc_export_material/src/container.dart';
